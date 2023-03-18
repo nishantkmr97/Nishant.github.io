@@ -581,7 +581,7 @@ height: 120px;
     #prc~div{
         width: 350px;
         height: 620px;
-        margin-left: -30px;
+        margin-left: -37px;
     }
     #ak1,#ak2,#ak3,#ak4{
       display: grid;
@@ -595,6 +595,9 @@ height: 120px;
    #cnt{
     margin: 0px 0px 0px -110px;
 }
+#aa{
+    margin-left: 90px;
+}
 }
 
 @media screen and (min-width:481px) and (max-width:888px){
@@ -605,6 +608,9 @@ height: 120px;
     }
     #cnt{
         margin: 0px -50px 0px -50px;
+    }
+    #aa{
+        margin-left: 46px;
     }
 
 }
