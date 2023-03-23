@@ -575,19 +575,19 @@ height: 120px;
     margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
+   text-align: left;
    
 }
 @media screen and (min-width:150px) and (max-width:480px){
-    #prc~div{
-        width: 350px;
-        height: 620px;
-        margin-left: -37px;
-    }
+   
 
      #prc~div{
-        width: 110%;
-        height: 120%;
-         /* margin-left: -37px; */
+        width: 125%;
+        height: 160%;
+         margin: auto;
+       align-items: center;
+       margin-left: -40px;
+      margin-top: 40px;
     } 
      
 
@@ -601,15 +601,15 @@ height: 120px;
     margin-right: 70%;
    }
    #cnt{
-    /* margin: 0px 0px 0px -110px; */
+  
     margin: 0px 0px 0px -46%;
 }
 #aa{
     margin-left: 135px;
 }
 #nav-menu{
-    width: 95%;
-    /* border: 5px solid black; */
+    width: 80%;
+   
    }
 
    .skills-card-img{
@@ -619,6 +619,16 @@ height: 120px;
    #skills-card{
     width: 40%;
    }
+.nnt{
+    margin-left: 0px;
+}
+#cnt{
+    
+    text-align: left;
+   
+    margin-right: -65px;
+}
+
 }
 
 @media screen and (min-width:481px) and (max-width:888px){
@@ -629,19 +639,23 @@ height: 120px;
     }
     #cnt{
         margin: 0px -50px 0px -50px;
-        /* margin: 0px -20% 0px -20%; */
+       
     }
     #aa{
         margin-left: 46px;
     }
+
+    #prc~div{
+        width: 115%;
+        height: 160%;
+         margin: auto;
+        /* border: 5px solid black; */
+       align-items: center;
+       margin-left: -40px;
+       margin-top: 40px;
+    } 
 }
 
-.tt{
-    width: 90%;
-    margin: auto;
-}
-
-@media screen and (min-width:150px) and (max-width:1076px){
-
-   
+.nnt{
+    margin-left: 5%;
 }
