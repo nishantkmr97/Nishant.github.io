@@ -628,6 +628,10 @@ height: 120px;
    
     margin-right: -65px;
 }
+#top{
+    /* border: 5px solid black; */
+    width: auto;
+}
 
 }
 
@@ -638,7 +642,7 @@ height: 120px;
         height: 80%;
     }
     #cnt{
-        margin: 0px -50px 0px -50px;
+        margin: 0px 50px 0px 0px;
        
     }
     #aa{
@@ -654,6 +658,11 @@ height: 120px;
        margin-left: -40px;
        margin-top: 40px;
     } 
+
+    #top{
+        border: 5px solid black;
+        width: auto;
+    }
 }
 
 .nnt{
