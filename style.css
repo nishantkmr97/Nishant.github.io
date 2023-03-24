@@ -313,9 +313,9 @@ about
 
 /* projects section styling */
 
-.nav-link.projects .title::after{
-    /* content: "what i did"; */
-}
+/* .nav-link.projects .title::after{
+    content: "what i did";
+} */
 
 
 .nav-link.projects .project-card{
@@ -364,9 +364,9 @@ about
 
 
 /* contact section styling */
-.nav-link.contact .title::after{
+/* .nav-link.contact .title::after{
     content: "get in touch";
-}
+} */
 
 .nav-link.contact .contact-content{
     margin-left: 40%;
@@ -560,14 +560,12 @@ footer span a:hover{
 }
 
 .skills-card-img{
-/* border: 5px solid red; */
 width: 150px;
 height: 120px;
 
 
 }
 .nav-link contact{
-    border: 5px solid red;
     margin-right: 150px;
 }
 
@@ -578,7 +576,7 @@ height: 120px;
    text-align: left;
    
 }
-@media screen and (min-width:150px) and (max-width:480px){
+@media screen and (min-width:70px) and (max-width:480px){
    
 
      #prc~div{
@@ -589,27 +587,28 @@ height: 120px;
        margin-left: -40px;
       margin-top: 40px;
     } 
-     
 
     #ak1,#ak2,#ak3,#ak4{
       display: grid;
       grid-template-columns: repeat(1,300%);
      grid-template-rows: repeat(auto);
     }
+
    #kk{
     width: 70%;
     margin-right: 70%;
    }
+
    #cnt{
-  
     margin: 0px 0px 0px -46%;
-}
-#aa{
+  }
+
+  #aa{
     margin-left: 135px;
-}
-#nav-menu{
+  }
+
+  #nav-menu{
     width: 80%;
-   
    }
 
    .skills-card-img{
@@ -619,21 +618,51 @@ height: 120px;
    #skills-card{
     width: 40%;
    }
-.nnt{
+
+  .nnt{
     margin-left: 0px;
-}
-#cnt{
-    
-    text-align: left;
-   
-    margin-right: -65px;
-}
-#top{
-    /* border: 5px solid black; */
+  }
+
+  #cnt{
+    height: auto;
     width: auto;
-}
+  }
 
+   #contact-phone{
+    width: 180%;
+ }
+   #feel{
+   width: 180%;
+ }
 
+   #nav-menu{
+    width: 100%;
+   }
+
+   .project-img{
+    width: auto;
+    margin: auto;
+   }
+
+   #projects{
+    height: auto;
+   }
+
+   .project-card{
+    border: 5px solid green;
+   }
+
+   .text{
+    font-size-adjust: auto;
+   }
+
+   .sub-title{
+    width: 200%;
+   }
+
+   #contact-linkedin{
+    width: 200%;
+  }
 }
 
 @media screen and (min-width:481px) and (max-width:888px){
@@ -642,10 +671,11 @@ height: 120px;
         width: 80%;
         height: 80%;
     }
+
     #cnt{
         margin: 0px 50px 0px 0px;
-       
     }
+
     #aa{
         margin-left: 46px;
     }
@@ -653,26 +683,42 @@ height: 120px;
     #prc~div{
         width: 115%;
         height: 160%;
-         margin: auto;
-        /* border: 5px solid black; */
-       align-items: center;
-       margin-left: -40px;
-       margin-top: 40px;
+        margin: auto;
+        align-items: center;
+        margin-left: -40px;
+        margin-top: 40px;
     } 
 
     #top{
-        /* border: 5px solid black; */
         width: auto;
+    }
+
+    #cnt{
+        height: auto;
+        width: auto;
+        margin: auto;
+        text-align: left;
+    }
+
+    #contact-phone{
+        width: 180%;
+    }
+
+    #yy{
+        display: flex;
+        width: 200%;
+    }
+
+    .sub-title{
+        width: 200%;
     }
 }
 
 .nnt{
     margin-left: 5%;
-    border: 5px solid red;
-}
+ }
 
 .tt{
-    /* border: 5px solid red; */
     width: 89%;
     margin: auto;
 }
