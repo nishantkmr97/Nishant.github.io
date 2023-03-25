@@ -362,7 +362,14 @@ about
   }
 
 
-
+  .button-5{
+    height: 30px;
+    width: 80px;
+    /* font-size: 8px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border: none;
+  }
 
 
 /* contact section styling */
@@ -595,9 +602,10 @@ height: 120px;
        align-items: center;
        margin-left: -60px;
       margin-top: 10px;
-      font-size: 12px;
+      font-size: 16px;
       /* border: 5px solid rgb(211, 147, 9); */
       text-size-adjust: 5px;
+      
      
     } 
 
@@ -617,11 +625,12 @@ height: 120px;
    }
    .button-5{
      height: 20px;
-     width: 30px;
-     font-size: 8px;
+     width: 50px;
+     font-size: 12px;
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
      border-radius: 10px;
      border: none;
+    
    }
    
    .home-img{
@@ -710,8 +719,9 @@ font-size: 15px;
     /* grid-template-rows: repeat(auto); */
     margin-left: 1%;
     font-size: 10px;
-    height: 1200px;
+    height: 1300px;
     margin-top: 2px;
+    width: auto;
    }
    
    .skills-card{
