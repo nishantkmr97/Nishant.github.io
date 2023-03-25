@@ -37,6 +37,7 @@ section{
    /* margin-bottom: 20px; */
    
    
+   
 }
 .about, .nav-link.skills, .skills, .contact, footer{
     font-family: 'Poppins', sans-serif;
@@ -335,6 +336,7 @@ about
     width: 32%;
     height: 600px;
     margin-left: 145px;
+
    
 }
 
@@ -501,7 +503,7 @@ footer span a:hover{
         margin-bottom: 35px;
     }
     .project-card{
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
 }
 
@@ -581,26 +583,41 @@ height: 120px;
 
      #prc~div{
         width: 125%;
-        height: 160%;
+        height: 90%;
          margin: auto;
        align-items: center;
        margin-left: -40px;
       margin-top: 40px;
+      font-size: 10px;
+      /* border: 5px solid rgb(211, 147, 9); */
+      text-size-adjust: 5px;
     } 
 
     #ak1,#ak2,#ak3,#ak4{
       display: grid;
       grid-template-columns: repeat(1,300%);
      grid-template-rows: repeat(auto);
+     font-size: 10px;
+     /* border: 5px solid rgb(16, 160, 204); */
+     text-size-adjust: 5px;
     }
 
    #kk{
-    width: 70%;
-    margin-right: 70%;
+    width: 90%;
+    margin-right: 50%;
+    /* border: 5px solid rgb(35, 23, 201); */
+   
+   
+   }
+   .home-img{
+    /* border: 5px solid rgb(35, 23, 201); */
+    height: 400px;
+    width: 300px;
    }
 
    #cnt{
     margin: 0px 0px 0px -46%;
+    /* border: 5px solid rgb(35, 23, 201); */
   }
 
   #aa{
@@ -640,22 +657,25 @@ height: 120px;
    }
 
    .project-img{
-    width: auto;
-    margin: auto;
+    width: 30%;
+    height: 10%;
+    
+    /* border: 5px solid red; */
    }
 
-   #projects{
-    height: auto;
+   .nnt{
+    
+    /* border: 5px solid red; */
+   width: 5px;
+   height: 8px;
+   font-size: 4px;
    }
-
-   .project-card{
-    border: 5px solid green;
-   }
-
-   .text{
-    font-size-adjust: auto;
-   }
-
+#text-5,#text-6,#text-7,#text-8,#text-9,#text-10,#text-11,#text-12,#text-13,#text-14,#text-15,#text-16,#text-17,#text-18,#text-19,#text-20,#text-21,#text-22,#text-23,#text-25{
+    font-size: 15px;
+}
+#prc,#aa,#text-24{
+font-size: 15px;
+}
    .sub-title{
     width: 200%;
    }
@@ -663,8 +683,36 @@ height: 120px;
    #contact-linkedin{
     width: 200%;
   }
+  #contact{
+    /* margin-top: 150px; */
+    /* border :5px solid yellow; */
+    width: auto;
+    font-size: 10px;
 }
+#project1{
+    /* border: 5px solid rgb(191, 168, 218); */
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    /* grid-template-rows: repeat(auto); */
+    margin-left: 1%;
+    font-size: 10px;
+    height: 1200px;
+    margin-top: 2px;
+   }
+   
+   .skills-card{
+    font-size: 2px;
+    /* border: 5px solid red; */
 
+}
+#ppp{
+    
+    /* border: 5px solid rgb(172, 137, 24); */
+    height: 10px;
+    margin-top: 160px;
+    font-size: 10px;
+}
+}
 @media screen and (min-width:481px) and (max-width:888px){
     
    #prc~div{
@@ -722,3 +770,50 @@ height: 120px;
     width: 89%;
     margin: auto;
 }
+
+/* @media screen and (min-width:150px) and (max-width:625px){
+
+    #project1{
+        border: 5px solid green;
+        display: grid;
+        grid-template-columns: repeat(1,100px);
+        grid-template-rows: repeat(auto);
+       margin-left: 1%;
+       font-size: smaller;
+       font-size: 7px;
+       
+       }
+    #pppp{
+        margin-top: 40px;
+        border: 5px solid green;
+        height: 100px;
+        margin-top: 60px;
+        font-size: 7px;
+    }
+#ppp{
+    
+    border: 5px solid green;
+    height: 10px;
+    margin-top: 160px;
+    font-size: 7px;
+}
+#contact{
+    margin-top: 150px;
+    border :5px solid yellow;
+    width: auto;
+    font-size: 7px;
+}
+.skills-card{
+    font-size: 2px;
+    border: 5px solid red;
+}
+#aa{
+    font-size: 10px;
+    text-align: center;
+    margin-left: -1%;
+}
+#prc{
+    font-size: 10px;
+    margin-left: -60px;
+}
+} */
