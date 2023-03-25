@@ -578,19 +578,27 @@ height: 120px;
    text-align: left;
    
 }
+
+.project-img{
+    width: 300px;
+    height: 190px;
+    margin: auto;
+}
+
 @media screen and (min-width:70px) and (max-width:480px){
    
 
      #prc~div{
-        width: 125%;
-        height: 90%;
+        width: 190%;
+        height: auto;
          margin: auto;
        align-items: center;
-       margin-left: -40px;
-      margin-top: 40px;
-      font-size: 10px;
+       margin-left: -60px;
+      margin-top: 10px;
+      font-size: 12px;
       /* border: 5px solid rgb(211, 147, 9); */
       text-size-adjust: 5px;
+     
     } 
 
     #ak1,#ak2,#ak3,#ak4{
@@ -606,9 +614,16 @@ height: 120px;
     width: 90%;
     margin-right: 50%;
     /* border: 5px solid rgb(35, 23, 201); */
-   
-   
    }
+   .button-5{
+     height: 20px;
+     width: 30px;
+     font-size: 8px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 10px;
+     border: none;
+   }
+   
    .home-img{
     /* border: 5px solid rgb(35, 23, 201); */
     height: 400px;
@@ -657,9 +672,8 @@ height: 120px;
    }
 
    .project-img{
-    width: 30%;
-    height: 10%;
-    
+    width: 95%;
+    height: 3%;
     /* border: 5px solid red; */
    }
 
@@ -671,7 +685,7 @@ height: 120px;
    font-size: 4px;
    }
 #text-5,#text-6,#text-7,#text-8,#text-9,#text-10,#text-11,#text-12,#text-13,#text-14,#text-15,#text-16,#text-17,#text-18,#text-19,#text-20,#text-21,#text-22,#text-23,#text-25{
-    font-size: 15px;
+    font-size: 12px;
 }
 #prc,#aa,#text-24{
 font-size: 15px;
