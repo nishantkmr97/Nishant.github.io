@@ -340,6 +340,10 @@ about
     border-radius: 10px;
     width: 90%;
     
+    /* margin: auto; */
+    align-items: center;
+    margin-right: 70px;
+    
 }
 
   .button-5{
@@ -786,3 +790,12 @@ footer span a:hover{
      margin: auto;
 }
 
+#image-pp{
+    
+    margin-left: 15px;
+}
+
+#image-pk{
+   
+    margin-left: 15px;
+}
